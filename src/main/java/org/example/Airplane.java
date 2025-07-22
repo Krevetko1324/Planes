@@ -1,12 +1,12 @@
 package org.example;
 
-public abstract class airplane extends Transport implements Nebo {
+public abstract class Airplane extends Transport implements Nebo {
     private final boolean wings;
     private final String wheels;
     private final String helix;
     public final int carrier;
 
-    public airplane(String name, boolean engine, boolean wings, String wheels, String helix, int carrier) {
+    public Airplane(String name, boolean engine, boolean wings, String wheels, String helix, int carrier) {
         super(name, engine);
         this.wings = wings;
         this.wheels = wheels;

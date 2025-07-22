@@ -3,6 +3,7 @@ package org.example;
 public class truck extends Transport implements Aland {
     private String wheels = "Truck Wheels";
     public static int carrier;
+
     @Override
     public void riding() {
         System.out.println("Yeah im gonna take my horse");

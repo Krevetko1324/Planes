@@ -1,9 +1,10 @@
 package org.example;
 
-public class boat extends Transport implements Water{
+public class boat extends Transport implements Water {
     public static int maneuverability;
     private final String helix;
     public static int carrier;
+
     @Override
     public void swimming() {
         System.out.println("I am so fast");

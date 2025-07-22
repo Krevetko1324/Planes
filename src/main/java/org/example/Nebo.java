@@ -2,5 +2,5 @@ package org.example;
 
 public interface Nebo {
 
-    void fly ();
+    void fly();
 }

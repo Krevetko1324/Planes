@@ -1,6 +1,6 @@
 package org.example;
 
-public interface Nebo {
+public interface Sky {
 
     void fly();
 }

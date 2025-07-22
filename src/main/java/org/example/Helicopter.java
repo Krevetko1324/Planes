@@ -1,6 +1,6 @@
 package org.example;
 
-public class Helicopter extends Transport implements Nebo {
+public class Helicopter extends Transport implements Sky {
     private final String wheels;
     private final String blades;
     public final int carrier;

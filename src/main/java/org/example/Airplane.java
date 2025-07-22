@@ -1,6 +1,6 @@
 package org.example;
 
-public abstract class Airplane extends Transport implements Nebo {
+public abstract class Airplane extends Transport implements Sky {
     private final boolean wings;
     private final String wheels;
     private final String helix;

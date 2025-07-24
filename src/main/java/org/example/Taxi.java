@@ -1,6 +1,6 @@
 package org.example;
 
-public class taxi extends Transport implements Aland {
+public class Taxi extends Transport implements Aland {
     private final boolean wheels;
 
     @Override
@@ -9,7 +9,7 @@ public class taxi extends Transport implements Aland {
         System.out.println("Я гоню быстро, не подьедешь близко");
     }
 
-    public taxi(String name, boolean engine, boolean wheels) {
+    public Taxi(String name, boolean engine, boolean wheels) {
         super(name, engine);
         this.wheels = wheels;
     }

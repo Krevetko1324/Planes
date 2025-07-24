@@ -16,6 +16,5 @@ public abstract class Airplane extends Transport implements Sky {
 
     @Override
     public void fly() {
-        System.out.println("I am fly, like a bird");
-    }
+        System.out.println("I am fly, like a bird");}
 }
